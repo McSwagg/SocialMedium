@@ -9,9 +9,29 @@ import SwiftUI
 
 @main
 struct SocialMediumApp: App {
+    @AppStorage(Constants.isLoggedIn) var isLoggedIn = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isLoggedIn {
+                tabView
+            } else {
+                Login()
+            }
+        }
+    }
+    
+    var tabView: some View {
+        TabView {
+            Home()
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+            
+            Settings()
+                .tabItem {
+                    Label("Settings", systemImage: "gear")
+                }
         }
     }
 }

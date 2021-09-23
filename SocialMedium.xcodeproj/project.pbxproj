@@ -8,18 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		C90D0E3126FA12F9009038F4 /* SocialMediumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90D0E3026FA12F9009038F4 /* SocialMediumApp.swift */; };
-		C90D0E3326FA12F9009038F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90D0E3226FA12F9009038F4 /* ContentView.swift */; };
+		C90D0E3326FA12F9009038F4 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90D0E3226FA12F9009038F4 /* Login.swift */; };
 		C90D0E3526FA12FA009038F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90D0E3426FA12FA009038F4 /* Assets.xcassets */; };
 		C90D0E3826FA12FA009038F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90D0E3726FA12FA009038F4 /* Preview Assets.xcassets */; };
+		C90D0E4026FA148D009038F4 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90D0E3F26FA148D009038F4 /* LoginModel.swift */; };
+		C9BBE49B26FA1CD1003ABD3C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BBE49A26FA1CD1003ABD3C /* Constants.swift */; };
+		C9BBE49D26FA1F0C003ABD3C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BBE49C26FA1F0C003ABD3C /* Home.swift */; };
+		C9BBE4A626FA202C003ABD3C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BBE4A526FA202C003ABD3C /* Settings.swift */; };
+		C9BBE4A826FA2057003ABD3C /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BBE4A726FA2057003ABD3C /* SettingsModel.swift */; };
+		C9C1B12726FB63F500F7CAFC /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C1B12626FB63F500F7CAFC /* Moment.swift */; };
+		C9C1B12A26FB664700F7CAFC /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C1B12926FB664700F7CAFC /* HomeModel.swift */; };
+		C9C1B12C26FB6DB100F7CAFC /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C1B12B26FB6DB100F7CAFC /* DataExtensions.swift */; };
+		C9C1B12E26FB6EE800F7CAFC /* HomeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C1B12D26FB6EE800F7CAFC /* HomeCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C90D0E2D26FA12F9009038F4 /* SocialMedium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMedium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90D0E3026FA12F9009038F4 /* SocialMediumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediumApp.swift; sourceTree = "<group>"; };
-		C90D0E3226FA12F9009038F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C90D0E3226FA12F9009038F4 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		C90D0E3426FA12FA009038F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C90D0E3726FA12FA009038F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C90D0E3926FA12FA009038F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90D0E3F26FA148D009038F4 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		C9BBE49A26FA1CD1003ABD3C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C9BBE49C26FA1F0C003ABD3C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C9BBE4A526FA202C003ABD3C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		C9BBE4A726FA2057003ABD3C /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		C9C1B12626FB63F500F7CAFC /* Moment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
+		C9C1B12926FB664700F7CAFC /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		C9C1B12B26FB6DB100F7CAFC /* DataExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
+		C9C1B12D26FB6EE800F7CAFC /* HomeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +70,13 @@
 		C90D0E2F26FA12F9009038F4 /* SocialMedium */ = {
 			isa = PBXGroup;
 			children = (
-				C90D0E3026FA12F9009038F4 /* SocialMediumApp.swift */,
-				C90D0E3226FA12F9009038F4 /* ContentView.swift */,
-				C90D0E3426FA12FA009038F4 /* Assets.xcassets */,
 				C90D0E3926FA12FA009038F4 /* Info.plist */,
+				C90D0E3026FA12F9009038F4 /* SocialMediumApp.swift */,
+				C9C1B12826FB640900F7CAFC /* Moment */,
+				C9BBE49E26FA1F4D003ABD3C /* Login */,
+				C9BBE49F26FA1F71003ABD3C /* Home */,
+				C9BBE4A026FA1FAC003ABD3C /* Resources */,
+				C9BBE4A426FA200C003ABD3C /* Settings */,
 				C90D0E3626FA12FA009038F4 /* Preview Content */,
 			);
 			path = SocialMedium;
@@ -67,6 +88,52 @@
 				C90D0E3726FA12FA009038F4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9BBE49E26FA1F4D003ABD3C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C90D0E3F26FA148D009038F4 /* LoginModel.swift */,
+				C90D0E3226FA12F9009038F4 /* Login.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C9BBE49F26FA1F71003ABD3C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C9BBE49C26FA1F0C003ABD3C /* Home.swift */,
+				C9C1B12D26FB6EE800F7CAFC /* HomeCard.swift */,
+				C9C1B12926FB664700F7CAFC /* HomeModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C9BBE4A026FA1FAC003ABD3C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9C1B12B26FB6DB100F7CAFC /* DataExtensions.swift */,
+				C9BBE49A26FA1CD1003ABD3C /* Constants.swift */,
+				C90D0E3426FA12FA009038F4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C9BBE4A426FA200C003ABD3C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C9BBE4A726FA2057003ABD3C /* SettingsModel.swift */,
+				C9BBE4A526FA202C003ABD3C /* Settings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C9C1B12826FB640900F7CAFC /* Moment */ = {
+			isa = PBXGroup;
+			children = (
+				C9C1B12626FB63F500F7CAFC /* Moment.swift */,
+			);
+			path = Moment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C90D0E3326FA12F9009038F4 /* ContentView.swift in Sources */,
+				C9BBE4A626FA202C003ABD3C /* Settings.swift in Sources */,
+				C90D0E3326FA12F9009038F4 /* Login.swift in Sources */,
+				C9C1B12A26FB664700F7CAFC /* HomeModel.swift in Sources */,
+				C9C1B12C26FB6DB100F7CAFC /* DataExtensions.swift in Sources */,
+				C90D0E4026FA148D009038F4 /* LoginModel.swift in Sources */,
+				C9BBE49D26FA1F0C003ABD3C /* Home.swift in Sources */,
 				C90D0E3126FA12F9009038F4 /* SocialMediumApp.swift in Sources */,
+				C9BBE4A826FA2057003ABD3C /* SettingsModel.swift in Sources */,
+				C9BBE49B26FA1CD1003ABD3C /* Constants.swift in Sources */,
+				C9C1B12726FB63F500F7CAFC /* Moment.swift in Sources */,
+				C9C1B12E26FB6EE800F7CAFC /* HomeCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -271,7 +347,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SocialMedium/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SocialMedium/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +368,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SocialMedium/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SocialMedium/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
